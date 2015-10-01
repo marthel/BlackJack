@@ -28,12 +28,12 @@ public class Test {
     public void test() {
         System.out.println(deck.toString());
         deck.shuffleCards();
-        System.out.println("***********");
+        System.out.println("*********************");
         System.out.println(deck.toString());
-        System.out.println("***********");
+        System.out.println("*********************");
         deck.sortBySuit();
         System.out.println(deck.toString());
-        System.out.println("***********");
+        System.out.println("*********************");
         deck.sortByRank();
         System.out.println(deck.toString());
         deck.clearDeck();
